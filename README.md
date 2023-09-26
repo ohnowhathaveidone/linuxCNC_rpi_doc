@@ -20,6 +20,8 @@ the latest stable kernel ca be found at https://git.kernel.org/pub/scm/linux/ker
 
 ## load arch linux on raspi
 follow comfile's instructions to load the newly compiled kernel on your raspi.  
+it seems that upgrades via pacman will pull a new kernel, however this will not actually change anything to the kernel. uname still reports an RT kernel after the upgrade.  
+this may cause issues.  
 
 ## useful links (tl;dr)
 arch arm project setup raspi: https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4 - set up a base system on the raspi  
