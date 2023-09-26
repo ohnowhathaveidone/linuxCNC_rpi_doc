@@ -12,9 +12,9 @@ https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4
 ## cross compile kernel
 get crossdev on gentoo:  
 https://wiki.gentoo.org/wiki/Embedded_Handbook/General/Creating_a_cross-compiler 
-install arm64 toolcain:   
-´´´crossdev --target aarch64´´´
-this will provide you with ´´´aarch64-unknown-linux-gnu´´´ -> adjust the compiler name in the build script  
+install arm64 toolcain:  
+´crossdev --target aarch64´
+this will provide you with ´aarch64-unknown-linux-gnu´ -> adjust the compiler name in the build script  
 
 ## load arch linux on raspi
 
