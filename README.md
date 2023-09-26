@@ -2,14 +2,18 @@
 this is work in progress. 
 
 ## specs
-raspi: model 4, 8GB ram -> OS: arch linux
+raspi: model 4, 8GB ram -> OS: arch linux  
 host: 10 year old laptop -> OS: gentoo
 
 ## get base operating system (raspi)
-this works very well and should set you up with a 64 bit operating system: 
+this works very well and should set you up with a 64 bit operating system:  
 https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4 
 
 ## cross compile kernel
+get crossdev on gentoo:  
+https://wiki.gentoo.org/wiki/Embedded_Handbook/General/Creating_a_cross-compiler 
+
+
 
 ## load arch linux on raspi
 
